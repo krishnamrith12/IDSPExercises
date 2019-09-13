@@ -177,7 +177,7 @@ def suggestionMaker(repPattern, wordList):
             return [wordList[0]] + suggestionMaker(repPattern, wordList[1:])
 
 
-if __name__ == '__main__':
+if __name__ ==  '__main__':
     print("hello")
     qword = human()
     hangman(qword)
