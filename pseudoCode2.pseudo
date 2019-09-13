@@ -1,0 +1,39 @@
+main function:
+    human()  # input from user1
+    hangman(<arguments>) # start the hangman game.
+
+human()
+    input the word
+    return the word
+
+hangman(<arguments>):
+    create string pattern # convert hello to _____
+    initialise a set for guessed characters
+    start recursive call to hangman
+
+recHangman(<arguments>):
+    base case: # conditions to terminate
+        if exceeds maximum allowed mistakes:
+            return False
+        if guessed all characters correctly:
+            return Success
+    recursion case: 
+        input the letter from user2
+        if already guessed:
+            ask for new input
+        else:
+            add value to guessed
+            if letter in word:
+                update patten _ a _ _
+            else if letter not in word:
+                update mistake counter
+            generate and show suggestions
+        ask for new guess, do recursive call to self
+
+
+updatePattern(<arguments>):
+    traverse through word; find indices of the letter in the word
+    replace _ in string pattern at the corresponding indices
+
+
+generateAndShow(<arguments>)
