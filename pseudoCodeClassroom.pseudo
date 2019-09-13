@@ -1,0 +1,35 @@
+main():
+    human()
+    hangman(<arguments>)
+
+human()
+    thWord = input("enter the word")
+    return thWord
+
+hangman()
+    print the length of the word
+    ask for the guessing character (from user2)
+    start recursive call to hangman
+
+recHangman()
+    base case:
+        if exceeds 8 tries:
+            return failure
+        if guessed all characters correctly:
+            return a suceess
+    recursion case:
+        user guesses the character
+        if already in guessed:
+            ask for new input
+        else:
+            add the letter to the "guessed" set
+            if letter is in the word:
+                update the pattern  and show the new pattern
+            else if the letter is not in the word: 
+                update the mistakes counter
+        ask for new guess, do a recurrsive call (call to self)
+
+
+updatePattern()
+    taverse through the word, find indices of the letter in the word
+    replace the _ in string pattern at the corresponding indices
