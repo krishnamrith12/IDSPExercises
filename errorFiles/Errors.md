@@ -26,7 +26,6 @@ Here is a fun project to collect such tricky & counter-intuitive examples and le
     - [▶ Same operands, different story!](#-same-operands-different-story)
     - [▶ Be careful with chained operations](#-be-careful-with-chained-operations)
     - [▶ Needle in a Haystack](#-needle-in-a-haystack)
-- [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 - [🎓 License](#-license)
   - [Help](#help)
