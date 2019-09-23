@@ -6,7 +6,7 @@
 
 Here is a fun project to collect such tricky & counter-intuitive examples and lesser-known features in Python, attempting to discuss what exactly is happening under the hood!
 
-[Original Repo](https://raw.githubusercontent.com/satwikkansal/wtfpython/)
+[Original Repo](https://github.com/satwikkansal/wtfpython/)
 
 # Table of Contents
 
