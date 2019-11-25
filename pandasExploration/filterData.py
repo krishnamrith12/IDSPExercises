@@ -1,0 +1,1 @@
+ted[ted.comments < 1000].comments.plot(kind='hist')

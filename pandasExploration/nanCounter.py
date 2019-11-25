@@ -1,0 +1,1 @@
+ted.isna().sum()

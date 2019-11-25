@@ -1,0 +1,1 @@
+pd.to_datetime(ted.film_date).head()

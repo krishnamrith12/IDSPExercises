@@ -1,0 +1,1 @@
+ted['comments_per_view'] = ted.comments / ted.views
